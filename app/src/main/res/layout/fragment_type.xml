@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".TypeFragment">
+
+    <Button
+        android:id="@+id/TypeAbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/textframe_dark_bule"
+        android:text="แผนกกุมารเวชกรรม"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/TypeBbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/textframe_dark_bule"
+        android:text="แผนกเวชศาสตร์ฟื้นฟู"
+
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/TypeCbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/textframe_dark_bule"
+        android:text="แผนกอายุรกรรม"
+
+        android:textSize="28sp" />
+
+</LinearLayout>

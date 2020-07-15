@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical" >
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="vertical" >
+    
+    	<Button
+        	android:id="@+id/buttonList"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:onClick="ListOnClick"
+        	android:text="List Reader" />
+
+    	<TextView
+    	    android:id="@+id/textReader"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:text="Reader:" />
+
+    	<Spinner
+    	    android:id="@+id/spinnerDevice"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="OpenOnClick"
+            android:text="Open" />
+ 	<Button
+            android:id="@+id/buttonPower"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="PowerOnClick"
+            android:text="Set Power" />
+        <Button
+            android:id="@+id/buttonATR"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="getATROnClick"
+            android:text="get ATR" >
+        </Button>
+
+        <Button
+            android:id="@+id/buttonAPDU"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="sendAPDUkOnClick"
+            android:text="Send APDU" >
+   	 	</Button>
+   	 	 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+      
+	 	<Button
+            android:id="@+id/buttonProtocol"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="getProtocolOnClick"
+            android:text="get protocol" />
+        <Button
+            android:id="@+id/buttonSN"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="getSNOnClick"
+            android:visibility="invisible"
+            android:text="get SN" />
+        
+    </LinearLayout>
+  
+
+  
+ 	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="vertical" >
+
+    	<Button
+    	    android:id="@+id/buttonClose"
+    	    android:layout_width="fill_parent"
+    	     android:layout_height="wrap_content"
+    	    android:onClick="CloseOnClick"
+    	    android:text="Close" />
+
+      <TextView
+          android:id="@+id/textResult"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+	 	<TextView
+       		android:id="@+id/textAPDU"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:text="APDU to send" />
+    	<EditText
+        	android:id="@+id/editTextAPDU"
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:inputType="textMultiLine" />
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:onClick="switchModeOnClick"
+            android:text="Switch Card Mode"
+            android:visibility="invisible"
+            android:textSize="12sp" />
+
+        <Spinner
+            android:id="@+id/modeSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</LinearLayout>

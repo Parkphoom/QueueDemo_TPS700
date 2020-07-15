@@ -1,0 +1,2 @@
+include ':app',':printer'
+rootProject.name='QueueDemo_TPS700'

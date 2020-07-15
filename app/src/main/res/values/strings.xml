@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">QueueDemo_TPS700</string>
+    <string name="print_posing">Updating...</string>
+    <string name="func_success">func success</string>
+    <string name="func_failed">func failed</string>
+    <string name="readic">แสกนบัตรประชาชน</string>
+    <string name="dialog_readic">เสียบบัตรแล้วกดตกลง</string>
+    <string name="dialog_comfirmTH">ตกลง</string>
+
+    <array name="barsystem">
+        <item>UPC-A 65</item>
+        <item>UPC-A 66</item>
+        <item>JAN13 67</item>
+        <item>JAN8 68</item>
+        <item>CODE39 69</item>
+        <item>ITF 70</item>
+        <item>CODE93 72</item>
+        <item>CODE128 73</item>
+        <item>StandardEN13 74</item>
+        <item>StandardEN8 75</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="check_privilege_header">สำนักงานหลักประกันสุขภาพแห่งชาติ</string>
+    <string name="PrintButton">Print Queue</string>
+    <string name="TextQueue">คิวลำดับที่</string>
+    <string name="IdcardHint">เลขบัตรประชาชน</string>
+    <string name="telno">เบอร์โทรศัพท์</string>
+    <string name="sms_notification">การแจ้งเตือนผ่านระบบ SMS</string>
+</resources>
